@@ -1,6 +1,6 @@
 # Rolling Progress Report
 
-## recent work
+## recent experiments and work
 
 ### refactor Korean morphological analysis codebase
 
@@ -62,7 +62,9 @@ prec (tp/tp+fp): 62.64274061990212
 
 ### Create refined development dataset for Korean morphological analysis
 
-create a list of simple sentences (not titles, fragments, etc) of similar length from the Sejong Corpus and/or a totally simulated dataset in order to revisit the neural network and analyse its behavior more closely.
+Goal: create a list of simple sentences (not titles, fragments, etc) of similar length from the Sejong Corpus and/or a totally simulated dataset 
+
+Purpose: to revisit the morphological analysis neural network and analyse its behavior more closely.
 
 ### Unsupervised/semisupervised Named Entity *Detection*
 
@@ -70,7 +72,7 @@ From: [Collins and Singer 1999](http://www.aclweb.org/anthology/W99-0613)
 
 Goal: label named entities in *unlabeled* corpus
 
-Concept: Collins and Singer 1999 relied on iterative algorithms (EM and others) to iteratively refine classification based on *hand-engineered* intra-word (spelling) and inter-word (grammar) features. Curious about applying similar methods to distributed features (word and phrase/sentence embeddings).
+Concept: Collins and Singer 1999 relied on iterative algorithms (EM, boosting, etc.) to iteratively refine classification based on *hand-engineered* intra-word (spelling) and inter-word (grammar) features. Curious about applying similar methods to distributed features (word and phrase/sentence embeddings).
 
 ### Sentence classification, NER, and question-generation
 
