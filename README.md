@@ -1,5 +1,7 @@
 # Rolling Progress Report
 
+*updated Sept. 15, 2017*
+
 ## recent experiments and work
 
 ### refactor Korean morphological analysis codebase
