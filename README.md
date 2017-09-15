@@ -4,6 +4,10 @@
 
 ## recent experiments and work
 
+### machine learning study group is reconvening
+
+updates will be pushed to [tutorials repo](https://github.com/SNUDerek/tutorials)
+
 ### refactor Korean morphological analysis codebase
 
 - switched to `keras-contrib` implementation of CRF
