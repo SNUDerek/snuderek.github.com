@@ -26,7 +26,7 @@
 - see [this repo (metaphor branch)](https://github.com/SNUDerek/lstm-crf_named_entity/tree/metaphor)
 - bi-LSTM-CRF network architecture
 - new `keras-contrib` CRF
-- trained on [???] corpus (Tim's dataset)
+- trained on ??? corpus (Tim's dataset)
 - final results:
 
 ```
@@ -46,6 +46,8 @@ false negatives: 278
 rcll (tp/tp+fn): 58.00604229607251
 prec (tp/tp+fp): 62.64274061990212
 ```
+
+according to Tim, this F1 score for metaphor detection (0.60) slightly outperforms previous methods (0.58).
 
 **Wordspacing and EOS labeling in Korean/English**
 
