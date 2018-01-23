@@ -1,3 +1,7 @@
+# ssh guide for DEEPSNUv2
+
+see reference [here](sshguide.md)
+
 # Rolling Progress Report
 
 *updated Sept. 15, 2017*
