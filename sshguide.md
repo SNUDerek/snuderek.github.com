@@ -107,5 +107,7 @@ user@local:~$ kill -15 12345
 # REFERENCES
 
 https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps
+
 https://md.ekstrandom.net/blog/2016/04/remote-analysis-with-jupyter-and-ngrok/
+
 https://coderwall.com/p/ohk6cg/remote-access-to-ipython-notebooks-via-ssh
