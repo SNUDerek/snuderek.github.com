@@ -59,19 +59,6 @@ this will let you connect using a domain name instead of an IP address for maxim
 
 once you have the above set up, start a server and connect
 
-## CONNECT TO REMOTE MACHINE VIA SSH
-
-you can connect directly via the remote PC's IP address:
-
-`user@local:~$ ssh <user>@123.45.67.89`
-
-if you want to connect via domain, setup dynamic-dns and register DNS with domain
-for domains.google.com, see their guide.
-
-then you should be able to `ssh` in wih the domain name:
-
-`user@local:~$ ssh <user>@my-domain.com`
-
 ## USING JUPYTER NOTEBOOK OVER NGROK
 
 ### on remote machine, start a jupyter server
@@ -92,6 +79,19 @@ we can specify jupyter port if needed (default: 8888)
 ### on local machine, access with ngrok url in browser
 
 `http://<subdomain>.ap.ngrok.io`
+
+## CONNECT TO REMOTE MACHINE VIA SSH
+
+you can connect directly via the remote PC's IP address:
+
+`user@local:~$ ssh <user>@123.45.67.89`
+
+if you want to connect via domain, setup dynamic-dns and register DNS with domain
+for domains.google.com, see their guide.
+
+then you should be able to `ssh` in wih the domain name:
+
+`user@local:~$ ssh <user>@my-domain.com`
 
 ## USING PYTHON/IPYTHON/VIM OVER SSH
 
