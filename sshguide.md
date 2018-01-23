@@ -1,6 +1,8 @@
 # REFERENCE FOR SSH TO REMOTE SERVER
 
-# Setup Guide
+# Setup Guides
+
+get the tools and get them set up for remote hosting.
 
 ## TOOLS
 
@@ -10,7 +12,19 @@
 - `ddclient` allows IP address changes to be reflected if using a domain name (e.g. `my-domain.com`)
 - `TeamViewer` is free screen-sharing and remote-access software. while not ideal for coding with, it does allow to connect to your remote machine and manipulate it with the standard graphical desktop (with some lag). useful for connecting to troubleshoot, etc.
 
-## NGROK SETUP
+## JUPYTER NOTEBOOK CONFIGURATION
+
+(on the remote machine) create a jupyter configuration file, if you haven't already:
+
+`$ jupyter notebook --generate-config`
+
+then create a password with:
+
+`$ jupyter notebook password`
+
+see details here: [http://jupyter-notebook.readthedocs.io/en/stable/public_server.html]
+
+## NGROK SERVER SETUP
 
 this will allow basic access to a remote notebook through an ngrok url.
 
@@ -36,14 +50,16 @@ this will let you connect using a domain name instead of an IP address for maxim
 - if your ISP uses dynamic IP addresses, set up dynamic dns with `ddclient`
 - NB: if using domains.google.com, you can also update IP through browser address bar with their API
 
-## GET PYCHARM
+## GET PYCHARM PRO
 
-- use your student email address (snu email tested) at https://www.jetbrains.com/student/ to get activation key
-- while you're at it, go to https://education.github.com/pack for more free stuff
+- use your student email address (snu email tested) at [https://www.jetbrains.com/student/] to get activation key
+- while you're at it, go to [https://education.github.com/pack] for more free stuff
 
-# Connection Guide
+# Connection Guides
 
-## REMOTE INTO REMOTE MACHINE
+once you have the above set up, start a server and connect
+
+## CONNECT TO REMOTE MACHINE VIA SSH
 
 you can connect directly via the remote PC's IP address:
 
@@ -76,6 +92,11 @@ we can specify jupyter port if needed (default: 8888)
 ### on local machine, access with ngrok url in browser
 
 `http://<subdomain>.ap.ngrok.io`
+
+## USING PYTHON/IPYTHON/VIM OVER SSH
+
+- connect to remote PC via ssh (see above)
+- in terminal, enter `python` or `ipython` or `vim`
 
 ## USING JUPYTER NOTEBOOK OVER SSH
 
@@ -110,9 +131,9 @@ user 11111  0.0  0.0  11572   932 pts/6    S+   17:27   0:00 grep localhost:8889
 user@local:~$ kill -15 12345
 ```
 
-## PYCHARM SETUP
+## DEVELOPING IN PYCHARM OVER SSH
 
-- create a new project
+- open Pycharm pro on local machine and create a new Pycharm Project project
 - for **Interpreter**, hit the gear icon on the right and choose `Add Remote...`
 - on the window, choose `SSH Credentials`
 - `Host` is your remote IP or domain address
@@ -129,8 +150,8 @@ user@local:~$ kill -15 12345
 
 # REFERENCES
 
-https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps
+[https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps]
 
-https://md.ekstrandom.net/blog/2016/04/remote-analysis-with-jupyter-and-ngrok/
+[https://md.ekstrandom.net/blog/2016/04/remote-analysis-with-jupyter-and-ngrok/]
 
-https://coderwall.com/p/ohk6cg/remote-access-to-ipython-notebooks-via-ssh
+[https://coderwall.com/p/ohk6cg/remote-access-to-ipython-notebooks-via-ssh]
