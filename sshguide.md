@@ -1,33 +1,47 @@
 # REFERENCE FOR SSH TO REMOTE SERVER
 
+## TOOLS
+
+
+
 ## SUGGESTED FIRST STARTUP STUFF
 
-- install `ngrok`, register paid acct for subdomain reservation
-- register domain (e.g. with google domains) and set up dynamic dns with `ddclient`
-- install `TeamViewer` on local and remote PCs and link both to your account
+- setup ubuntu server. if behind router, forward port 22
+- install `openssh-server` on remote PC
+- install `openssh-client` on local PC
+- install `ngrok` and (optional) register paid account for fixed subdomain
+- install `TeamViewer` on local and remote PCs and link both to your TV account
+- use a site like `whatsmyip` to find remote PC's IP address
+- (optional) set up ssh keys to skip password login
+- (optional) register domain (e.g. with google domains) and set up dynamic dns with `ddclient`
 
 ## REMOTE INTO REMOTE MACHINE
 
-setup dynamic-dns and register DNS with domain
+you can connect directly via the remote PC's IP address:
 
+`user@local:~$ ssh <user>@123.45.67.89`
+
+if you want to connect via domain, setup dynamic-dns and register DNS with domain
 for domains.google.com, see their guide.
 
 then you should be able to `ssh` in wih the domain name:
 
-`user@local:~$ ssh <user>@<domain>`
+`user@local:~$ ssh <user>@my-domain.com`
 
-## STARTING JUPYTER NOTEBOOK OVER NGROK
+## USING JUPYTER NOTEBOOK OVER NGROK
 
-### on remote machine, startup jupyter server
+### on remote machine, start a jupyter server
 
 use **--port=####** for custom port
 
 `user@remote:~$ jupyter notebook --no-browser`
 
-### startup ngrok instance:
+### on remote machine, open an ngrok tunnel:
 
-set region to Asia-Pacific, specify subdomain and password-protect
-specify jupyter port if needed (default: 8888)
+here we set region to Asia-Pacific (`ap`), specify a reserved subdomain and password-protect
+we can specify jupyter port if needed (default: 8888)
+*do NOT use remote PC's login; this `user` and `password` is just for ngrok*
+*replace `<subdomain>` with subdomain of choice*
 
 `user@remote:~$ ./ngrok http -region ap -subdomain=<subdomain> --auth 'user:password' 8888`
 
@@ -35,9 +49,9 @@ specify jupyter port if needed (default: 8888)
 
 `http://<subdomain>.ap.ngrok.io`
 
-## STARTING JUPYTER NOTEBOOK OVER SSH
+## USING JUPYTER NOTEBOOK OVER SSH
 
-### on remote machine, startup jupyter server
+### on remote machine, start a jupyter server
 
 use **--port=####** for custom port
 
@@ -45,17 +59,17 @@ use **--port=####** for custom port
 
 ### create tunnel with ssh
 
-FIRST 8888 is local port, SECOND 8888 should be remote can change, for example if already running local notebook on 8888
+NB: FIRST `8888` is local port, SECOND `8888` should be remote. change these depending on what local and remote ports you want to use. for example, if using `--port=####` for remote notebook, edit the *second* accordingly; and/or if already running local notebook on `8888`, change *first* port to allow access to both notebooks locally.
 
-use **-f** flag if don't want to keep the terminal open (will run process in background)
+use **-f** flag (e.g. `-N -f -L`) if don't want to keep the terminal open (this will run the ssh process in the background)
 
 `user@local:~$ ssh -N -L localhost:8888:localhost:8888 user@remote`
 
-### on local machine, access in browser:
+### on local machine, access notebook in browser:
 
 `localhost:8888`
 
-### if using **-f**, kill process like this:
+### if using **-f**, kill the ssh tunneling process like this:
 
 where `8888` is the LOCAL port:
 
