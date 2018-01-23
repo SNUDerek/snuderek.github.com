@@ -6,6 +6,7 @@
 
 - `openSSH` allows ssh connections
 - `ngrok` is a free tunneling service, though reserved subdomains start at $5/mo. allows easy sharing of hosted website or webservice by redirecting it to a public URL. we can use it for hosting a jupyter notebook without bothing with `ssh`.
+- `PyCharm Professional` student license will allow easy remote access through ssh
 - `ddclient` allows IP address changes to be reflected if using a domain name (e.g. `my-domain.com`)
 - `TeamViewer` is free screen-sharing and remote-access software. while not ideal for coding with, it does allow to connect to your remote machine and manipulate it with the standard graphical desktop (with some lag). useful for connecting to troubleshoot, etc.
 
@@ -34,6 +35,11 @@ this will let you connect using a domain name instead of an IP address for maxim
 - register domain (e.g. with domains.google.com)
 - if your ISP uses dynamic IP addresses, set up dynamic dns with `ddclient`
 - NB: if using domains.google.com, you can also update IP through browser address bar with their API
+
+## GET PYCHARM
+
+- use your student email address (snu email tested) at https://www.jetbrains.com/student/ to get activation key
+- while you're at it, go to https://education.github.com/pack for more free stuff
 
 # Connection Guide
 
@@ -103,6 +109,22 @@ user 11111  0.0  0.0  11572   932 pts/6    S+   17:27   0:00 grep localhost:8889
 
 user@local:~$ kill -15 12345
 ```
+
+## PYCHARM SETUP
+
+- create a new project
+- for **Interpreter**, hit the gear icon on the right and choose `Add Remote...`
+- on the window, choose `SSH Credentials`
+- `Host` is your remote IP or domain address
+- `User name` is your remote user name
+- `Auth type` is password (remote system login password) or key
+- `Python Interpreter Path` is your `python` path. this will depend on if you are using eg `anaconda`
+- to get path to default python, remote into machine and do:
+
+`user@remote:~$ which python` 
+
+...and copy this path into the interpreter path field. for me, it is `/home/derek/miniconda3/bin/python`
+
 
 # REFERENCES
 
