@@ -119,7 +119,8 @@ user@local:~$ kill -15 12345
 - `User name` is your remote user name
 - `Auth type` is password (remote system login password) or key
 - `Python Interpreter Path` is your `python` path. this will depend on if you are using eg `anaconda`
-- to get path to default python, remote into machine and do:
+- finally you will be asked a save path for the project on the remote machine (files will be transfered there)
+- NOTE: to get path to default python, remote into machine and do:
 
 `user@remote:~$ which python` 
 
