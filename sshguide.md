@@ -1,19 +1,41 @@
 # REFERENCE FOR SSH TO REMOTE SERVER
 
+# Setup Guide
+
 ## TOOLS
 
+- `openSSH` allows ssh connections
+- `ngrok` is a free tunneling service, though reserved subdomains start at $5/mo. allows easy sharing of hosted website or webservice by redirecting it to a public URL. we can use it for hosting a jupyter notebook without bothing with `ssh`.
+- `ddclient` allows IP address changes to be reflected if using a domain name (e.g. `my-domain.com`)
+- `TeamViewer` is free screen-sharing and remote-access software. while not ideal for coding with, it does allow to connect to your remote machine and manipulate it with the standard graphical desktop (with some lag). useful for connecting to troubleshoot, etc.
 
+## NGROK SETUP
 
-## SUGGESTED FIRST STARTUP STUFF
+this will allow basic access to a remote notebook through an ngrok url.
 
-- setup ubuntu server. if behind router, forward port 22
+- setup remote PC with internet access
+- install `ngrok` and (optional) register paid account for fixed subdomain
+- (optional) install `TeamViewer` on local and remote PCs and link both to your TV account
+
+## SSH SETUP
+
+this will allow a whole slew of options, including access to a notebook through an ssh tunnel.
+
+- setup remote PC with internet access. if behind router, forward port 22 in router settings
 - install `openssh-server` on remote PC
 - install `openssh-client` on local PC
-- install `ngrok` and (optional) register paid account for fixed subdomain
-- install `TeamViewer` on local and remote PCs and link both to your TV account
 - use a site like `whatsmyip` to find remote PC's IP address
 - (optional) set up ssh keys to skip password login
-- (optional) register domain (e.g. with google domains) and set up dynamic dns with `ddclient`
+
+## CUSTOM DOMAIN SETUP (FOR SSH)
+
+this will let you connect using a domain name instead of an IP address for maximum coolness.
+
+- register domain (e.g. with domains.google.com)
+- if your ISP uses dynamic IP addresses, set up dynamic dns with `ddclient`
+- NB: if using domains.google.com, you can also update IP through browser address bar with their API
+
+# Connection Guide
 
 ## REMOTE INTO REMOTE MACHINE
 
