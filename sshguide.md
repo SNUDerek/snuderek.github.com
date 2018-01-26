@@ -74,7 +74,7 @@ then you should be able to `ssh` in wih the domain name:
 
 ## FILE TRANSFER
 
-**using sftp**
+### using sftp
 
 connect via `ssh` then open `sftp`:
 
@@ -100,7 +100,7 @@ moving files:
 
 ref: https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server
 
-**using scp**
+### using scp
 
 this can be used to transfer local files to remote system using `ssh`:
 
