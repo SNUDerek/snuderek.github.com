@@ -57,7 +57,62 @@ this will let you connect using a domain name instead of an IP address for maxim
 
 # Connection Guides
 
-once you have the above set up, start a server and connect
+once you have the above set up, you can start a server, transfer your files and start coding
+
+## CONNECT TO REMOTE MACHINE VIA SSH
+
+you can connect directly via the remote PC's IP address:
+
+`user@local:~$ ssh <user>@123.45.67.89`
+
+if you want to connect via domain, setup dynamic-dns and register DNS with domain
+for domains.google.com, see their guide.
+
+then you should be able to `ssh` in wih the domain name:
+
+`user@local:~$ ssh <user>@my-domain.com`
+
+## FILE TRANSFER
+
+**using sftp**
+
+connect via `ssh` then open `sftp`:
+
+`user@local:~$ sftp <user>@<remote IP or domain>`
+
+if connecting with a different port, use `-oPort=####`:
+
+`user@local:~$ sftp -oPort=1234 <user>@<remote IP or domain>`
+
+you can move directories as in the usual shell; preprending an 'l' moves around the local machine
+
+```
+remote   local    function
+pwd      lpwd     get current working directory
+cd       lcd      change working directory
+ls       lls      list files/folders in current directory (use -la for more info)
+df -h    ! df -h  (local is 2 commands, ! then df): check space before transfer
+```
+moving files:
+
+`$ put filename` : transfer files *from* local working dir to remote working dir
+`$ get filename` : transfer files *to* local working dir from remote working dir
+
+ref: https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server
+
+**using scp**
+
+this can be used to transfer local files to remote system using `ssh`:
+
+navigate to local directory, and then use:
+
+`user@local:~$ scp filename <user>@<remote IP or domain>:~/`
+
+specify port with `-P 11000` and remote subdirectory at the end, ex:
+
+`user@local:~/Downloads$ scp Readme.md derek@dereks.com:~/project1/`
+
+will send the file `Readme.md` from local `Downloads` directory to `derek/home/project1` on remote machine
 
 ## USING JUPYTER NOTEBOOK OVER NGROK
 
@@ -79,19 +134,6 @@ we can specify jupyter port if needed (default: 8888)
 ### on local machine, access with ngrok url in browser
 
 `http://<subdomain>.ap.ngrok.io`
-
-## CONNECT TO REMOTE MACHINE VIA SSH
-
-you can connect directly via the remote PC's IP address:
-
-`user@local:~$ ssh <user>@123.45.67.89`
-
-if you want to connect via domain, setup dynamic-dns and register DNS with domain
-for domains.google.com, see their guide.
-
-then you should be able to `ssh` in wih the domain name:
-
-`user@local:~$ ssh <user>@my-domain.com`
 
 ## USING PYTHON/IPYTHON/VIM OVER SSH
 
