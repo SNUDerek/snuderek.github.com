@@ -11,6 +11,7 @@ get the tools and get them set up for remote hosting.
 - `PyCharm Professional` student license will allow easy remote access through ssh
 - `ddclient` allows IP address changes to be reflected if using a domain name (e.g. `my-domain.com`)
 - `TeamViewer` is free screen-sharing and remote-access software. while not ideal for coding with, it does allow to connect to your remote machine and manipulate it with the standard graphical desktop (with some lag). useful for connecting to troubleshoot, etc.
+- `screen` allows you to run apps in the background
 
 ## JUPYTER NOTEBOOK CONFIGURATION
 
@@ -189,6 +190,11 @@ user@local:~$ kill -15 12345
 
 ...and copy this path into the interpreter path field. for me, it is `/home/derek/miniconda3/bin/python`
 
+# Other commands
+
+## checking system resources with GUI over SSH
+
+`ssh -XY user@remote "gnome-system-monitor"`
 
 # REFERENCES
 
