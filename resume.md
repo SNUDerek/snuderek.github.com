@@ -2,7 +2,7 @@
 
 *machine learning, linguistics, education*
 
-[LinkedIn](https://www.linkedin.com/in/derek-hommel-4a646869/), [GMail](mailto:dsh9470@gmail.com ), [Web](www.dereks.house) *wip*
+[LinkedIn](https://www.linkedin.com/in/derek-hommel-4a646869/), [GMail](mailto:dsh9470@gmail.com ), [Web](http://www.dereks.house) *inactive*
 
 ## Sample Projects
 
