@@ -2,7 +2,11 @@
 
 *machine learning, linguistics, education*
 
-[LinkedIn](https://www.linkedin.com/in/derek-hommel-4a646869/), [GMail](mailto:dsh9470@gmail.com ), [Web](http://www.dereks.house) *inactive*
+## Contact & Links
+
+currently living in Seoul, South Korea.
+
+please contact me via [GMail](mailto:dsh9470@gmail.com ) or [LinkedIn](https://www.linkedin.com/in/derek-hommel-4a646869/)
 
 ## Sample Projects
 
