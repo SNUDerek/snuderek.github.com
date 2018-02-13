@@ -1,4 +1,4 @@
-# Derek Hommel
+# Derek S Hommel
 
 *machine learning, linguistics, education*
 
@@ -6,7 +6,7 @@
 
 currently living in Seoul, South Korea.
 
-please contact me via [GMail](mailto:dsh9470@gmail.com ) or [LinkedIn](https://www.linkedin.com/in/derek-hommel-4a646869/)
+please contact me via email at [derekshommel@gmail.com](mailto:derekshommel@gmail.com) or at [LinkedIn](https://www.linkedin.com/in/derek-hommel-4a646869/)
 
 ## Sample Projects
 
