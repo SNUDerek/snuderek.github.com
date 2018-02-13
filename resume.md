@@ -2,7 +2,9 @@
 
 *machine learning, linguistics, education*
 
-## Projects
+[LinkedIn](https://www.linkedin.com/in/derek-hommel-4a646869/), [GMail](mailto:dsh9470@gmail.com ), [Web](www.dereks.house) *wip*
+
+## Sample Projects
 
 **[MLPy](https://github.com/SNUDerek/MLPy)**  
 [ongoing] implementation machine learning algorithms in `python+numpy` with descriptive comments
