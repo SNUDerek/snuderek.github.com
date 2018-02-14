@@ -11,7 +11,7 @@ please contact me via email at [derekshommel@gmail.com](mailto:derekshommel@gmai
 ## Sample Projects
 
 **[MLPy](https://github.com/SNUDerek/MLPy)**  
-[ongoing] implementation machine learning algorithms in `python+numpy` with descriptive comments
+[ongoing] education-focused implementation of machine learning algorithms in `python+numpy` with detailed comments
 
 **[Magic The Gathering Card Generation with LSTM Language Modeling](https://github.com/SNUDerek/mtgcardgenerator)**  
 [ongoing] a fun side-project for generating MtG cards using neural networks.  
