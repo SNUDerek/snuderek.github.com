@@ -196,6 +196,15 @@ user@local:~$ kill -15 12345
 
 `ssh -XY user@remote "gnome-system-monitor"`
 
+## specifying a GPU to train on (to allow multi-tasking)
+
+specify the GPU number at the end. same ID's as `gpu/0`, `gpu/1` etc. this will keep the other GPUs empty, allowing you to run other models on them.
+
+```
+import os
+os.environ["CUDA_VISIBLE_DEVICES"]="1"
+```
+
 # REFERENCES
 
 [https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-an-ubuntu-14-04-vps]
