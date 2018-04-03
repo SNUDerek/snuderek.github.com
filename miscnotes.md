@@ -1,3 +1,12 @@
+## specifying a GPU to train on (to allow multi-tasking)
+
+```
+import os
+os.environ["CUDA_VISIBLE_DEVICES"]="1"
+```
+
+specify the GPU number at the end. same ID's as `gpu/0`, `gpu/1` etc. this will keep the other GPUs empty, allowing you to run other models on them.
+
 ## using `pip` in `conda` virtual environments
 
 for the primary guide to using `conda` environments, see the [official guide](https://conda.io/docs/user-guide/tasks/manage-environments.html)
