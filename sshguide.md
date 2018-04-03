@@ -141,7 +141,7 @@ we can specify jupyter port if needed (default: 8888)
 - connect to remote PC via ssh (see above)
 - in terminal, enter `python` or `ipython` or `vim`
 
-## USING JUPYTER NOTEBOOK OVER SSH
+## USING JUPYTER NOTEBOOK/LAB OVER SSH
 
 ### on remote machine, start a jupyter server
 
@@ -189,6 +189,8 @@ user@local:~$ kill -15 12345
 `user@remote:~$ which python` 
 
 ...and copy this path into the interpreter path field. for me, it is `/home/derek/miniconda3/bin/python`
+
+**NB:** while this worked for me, when trying on another system, we had to `deploy` the code before execution
 
 # Other commands
 
