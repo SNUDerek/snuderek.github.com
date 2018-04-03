@@ -6,9 +6,16 @@ machine learning engineer & researcher, Seoul, South Korea
 
 you can view my resume [here](resume.md)
 
-## ssh guide
+## remote computing guide
 
-see reference [here](sshguide.md)
+see my reference guide [here](sshguide.md)
+
+- setting up remote access to a private server
+- using `ssh` `sftp` and `scp`
+- assigning a server a URL with Google Domains
+- using `ngrok` to access `jupyter lab`
+- setting up `PyCharm Pro` for remote execution
+- etc
 
 ## notes to myself
 
