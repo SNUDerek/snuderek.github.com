@@ -109,7 +109,7 @@ navigate to local directory, and then use:
 
 `user@local:~$ scp filename <user>@<remote IP or domain>:~/`
 
-specify port with `-P 11000` and remote subdirectory at the end, ex:
+specify port with `-P 1234` and remote subdirectory at the end, ex:
 
 `user@local:~/Downloads$ scp Readme.md derek@dereks.com:~/project1/`
 
