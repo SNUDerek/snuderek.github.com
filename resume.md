@@ -1,12 +1,20 @@
 # Derek S Hommel
 
-*machine learning, linguistics, education*
+*machine learning, linguistics, language education*
 
 ## Contact & Links
 
 currently living in Seoul, South Korea.
 
 please contact me via email at [derekshommel@gmail.com](mailto:derekshommel@gmail.com) or at [LinkedIn](https://www.linkedin.com/in/derek-hommel-4a646869/)
+
+## Skills & Stuff
+
+1. `python`
+2. data science & ML : `pandas`, `sklearn`, `nltk`, `konlpy`
+3. deep learning : `keras`, `tensorflow`
+4. github
+5. linux
 
 ## Sample Projects
 
@@ -26,7 +34,8 @@ an extension of the above project for a unified NER and intent detection network
 ## Education
 
 **Seoul National University** (2015 – Present)  
-*Master's Program in Linguistics*
+*Master's Program in Computational Linguistics*
+thesis work in Korean named entity recognition using data-driven deep learning solutions
 
 **University of Rochester** (2006 – 2009)  
 *Bachelor of Arts* magna cum laude *in Japanese Language in Culture*  
@@ -37,9 +46,9 @@ with minor in Linguistics
 
 ## Work Experience
 
-**Machine Learning Engineer** (March 2017 – Present)  
+**Machine Learning Researcher** (March 2017 – Present)  
 *[Atlas Guide](http://www.goodatlas.com), Seoul, Korea*  
-assisted in researching and developing AI & NLP technologies to create corporate dialog assistant and chatbot software.
+assisting in researching and developing AI & NLP technologies to create corporate dialog assistant and chatbot software.
 
 **Guest English Teacher, English Program in Korea (EPIK)** (2012 – 2014)  
 *Ohyun High School & Jeju Girl’s High School, Jeju City, South Korea*  
@@ -63,14 +72,22 @@ developed syllabus and curriculum, and taught conversational English classes to 
 
 ## Awards and Honors
 
-**Test of Proficiency in Korean (TOPIK)** (2014)  
-*Level 4 Proficiency*
-
 **NIIED Korean Government Scholarship Program Graduate Scholarship** (2014)  
 *Seoul National University – Linguistics*
+
+**Test of Proficiency in Korean (TOPIK)** (2014)  
+*Level 4 Proficiency*
 
 **Teaching English as a Foreign Language (TEFL)** (2012)  
 *100-hour Certificate*
 
 **Fulbright Scholar** (2009)  
 *English Teaching Assistant grant to South Korea*
+
+## Hobbies & Interests
+
+- PC gaming (simulation, strategy, FPS)
+- Magic the Gathering
+- skateboarding, longboarding
+- music (guitar/electric guitar/piano)
+- reading (non-fiction: linguistics, cognitive science, biology; fiction: SF, fantasy)
