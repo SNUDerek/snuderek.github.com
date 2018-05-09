@@ -10,11 +10,13 @@ please contact me via email at [derekshommel@gmail.com](mailto:derekshommel@gmai
 
 ## Skills & Stuff
 
-1. `python`
-2. data science & ML : `pandas`, `sklearn`, `nltk`, `konlpy`
-3. deep learning : `keras`, `tensorflow`
-4. github
-5. linux
+- `python`
+- data science & ML : `pandas`, `sklearn`, `nltk`, `konlpy`
+- deep learning : `keras`, `tensorflow`
+- github
+- linux
+- MS Office (MS Word, PowerPoint, Excel)
+- apparently i'm "good at explaining stuff"
 
 ## Sample Projects
 
@@ -43,6 +45,7 @@ with minor in Linguistics
 
 **Rochester Institute of Technology** (2004 – 2005)  
 *Software Engineering*
+on RIT Computing Medal scholarship
 
 ## Work Experience
 
@@ -68,7 +71,7 @@ developed syllabus and curriculum, and taught weekly conversational English clas
 
 **Intern English Instructor** (2007 – 2008)  
 *Language Village English Conversation School, Fuji City, Japan*  
-developed syllabus and curriculum, and taught conversational English classes to students of a variety of ages.
+developed syllabus and curriculum, and taught conversational English classes to students of a variety of ages (children to adult).
 
 ## Awards and Honors
 
