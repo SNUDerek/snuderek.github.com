@@ -13,8 +13,8 @@ please contact me via email at [derekshommel@gmail.com](mailto:derekshommel@gmai
 - `python`
 - data science & ML : `pandas`, `sklearn`, `nltk`, `konlpy`
 - deep learning : `keras`, `tensorflow`
-- github
-- linux
+- [github](https://github.com/SNUDerek)
+- Linux
 - MS Office (MS Word, PowerPoint, Excel)
 
 ## Sample Projects
