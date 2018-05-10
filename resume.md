@@ -16,7 +16,6 @@ please contact me via email at [derekshommel@gmail.com](mailto:derekshommel@gmai
 - github
 - linux
 - MS Office (MS Word, PowerPoint, Excel)
-- apparently i'm "good at explaining stuff"
 
 ## Sample Projects
 
