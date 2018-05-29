@@ -36,7 +36,7 @@ an extension of the above project for a unified NER and intent detection network
 
 **Seoul National University** (2015 – Present)  
 *Master's Program in Computational Linguistics*
-thesis work in Korean named entity recognition using data-driven deep learning solutions
+thesis work in Korean named entity recognition
 
 **University of Rochester** (2006 – 2009)  
 *Bachelor of Arts* magna cum laude *in Japanese Language in Culture*  
@@ -88,8 +88,8 @@ developed syllabus and curriculum, and taught conversational English classes to 
 
 ## Hobbies & Interests
 
-- PC gaming (simulation, strategy, FPS)
+- video gaming
 - Magic the Gathering
+- music (guitar/piano)
+- reading (linguistics, cognitive science, futurism, SF, fantasy)
 - skateboarding, longboarding
-- music (guitar/electric guitar/piano)
-- reading (non-fiction: linguistics, cognitive science, biology; fiction: SF, fantasy)
