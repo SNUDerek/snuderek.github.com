@@ -12,6 +12,8 @@ get the tools and get them set up for remote hosting.
 - `ddclient` allows IP address changes to be reflected if using a domain name (e.g. `my-domain.com`)
 - `TeamViewer` is free screen-sharing and remote-access software. while not ideal for coding with, it does allow to connect to your remote machine and manipulate it with the standard graphical desktop (with some lag). useful for connecting to troubleshoot, etc.
 - `screen` allows you to run apps in the background
+- `gFTP` (Linux) and `CyberDuck` (Windows, Mac) for transfering files
+- `Putty` for using `ssh` from Windows
 
 ## JUPYTER NOTEBOOK CONFIGURATION
 
