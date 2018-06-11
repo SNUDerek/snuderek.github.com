@@ -33,3 +33,16 @@ in order to maintain different environments with different versions of e.g. `ten
 4. `ipython kernel install --user --name=<kernelname>`
 
 ...this will require a restart of the `jupyter lab` server
+
+## `sklearn` multithreading e.g. in `GridSearchCV`
+
+using multithreaded objects in `sklearn` can cause the training to freeze, e.g. using `GridSearchCV` with `n_jobs>1`. the following seems to work as an alternative:
+
+```
+from sklearn.externals.joblib import parallel_backend
+grid = GridSearchCV(...)
+with parallel_backend('threading'):
+    grid.fit(x_train, y_train)
+```
+
+source & discussion: [StackOverflow](https://stackoverflow.com/questions/33042527/parallel-jobs-dont-finish-in-scikit-learns-gridsearchcv)
