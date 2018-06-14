@@ -72,7 +72,10 @@ developed syllabus and curriculum, and taught weekly conversational English clas
 *Language Village English Conversation School, Fuji City, Japan*  
 developed syllabus and curriculum, and taught conversational English classes to students of a variety of ages (children to adult).
 
-## Awards and Honors
+## Awards, Honors, Competitions
+
+**Naver AI Hackathon 2018**
+*Round 3/Finalist with Team Atlas*
 
 **NIIED Korean Government Scholarship Program Graduate Scholarship** (2014)  
 *Seoul National University – Linguistics*
