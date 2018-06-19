@@ -6,6 +6,10 @@ machine learning engineer & researcher, Seoul, South Korea
 
 you can view my resume [here](resume.md)
 
+## research summary
+
+layman's explanation of my research [here](abstract.md)
+
 ## remote computing guide
 
 see my reference guide [here](sshguide.md)
