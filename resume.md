@@ -74,7 +74,7 @@ developed syllabus and curriculum, and taught conversational English classes to 
 
 ## Awards, Honors, Competitions
 
-**Naver AI Hackathon 2018**
+**Naver AI Hackathon 2018**  
 *Round 3/Finalist with Team Atlas*
 
 **NIIED Korean Government Scholarship Program Graduate Scholarship** (2014)  
