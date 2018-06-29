@@ -17,7 +17,7 @@ please contact me via email at [derekshommel@gmail.com](mailto:derekshommel@gmai
 - Linux
 - MS Office (MS Word, PowerPoint, Excel)
 
-## Sample Projects
+## Sample Portfolio
 
 **[MLPy](https://github.com/SNUDerek/MLPy)**  
 [ongoing] education-focused implementation of machine learning algorithms in `python+numpy` with detailed comments
@@ -34,8 +34,8 @@ an extension of the above project for a unified NER and intent detection network
 
 ## Education
 
-**Seoul National University** (2015 – Present)  
-*Master's Program in Computational Linguistics*
+**Seoul National University** (2015 – 2018)  
+*Master's in Computational Linguistics*
 thesis work in Korean named entity recognition
 
 **University of Rochester** (2006 – 2009)  
@@ -44,13 +44,13 @@ with minor in Linguistics
 
 **Rochester Institute of Technology** (2004 – 2005)  
 *Software Engineering*
-on RIT Computing Medal scholarship
+on the RIT Computing Medal scholarship
 
 ## Work Experience
 
 **Machine Learning Researcher** (March 2017 – Present)  
 *[Atlas Guide](http://www.goodatlas.com), Seoul, Korea*  
-assisting in researching and developing AI & NLP technologies to create corporate dialog assistant and chatbot software.
+assisting in researching and developing AI & NLP technologies to create dialog assistant software.
 
 **Guest English Teacher, English Program in Korea (EPIK)** (2012 – 2014)  
 *Ohyun High School & Jeju Girl’s High School, Jeju City, South Korea*  
