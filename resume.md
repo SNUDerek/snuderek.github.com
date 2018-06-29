@@ -36,7 +36,7 @@ an extension of the above project for a unified NER and intent detection network
 
 **Seoul National University** (2015 – 2018)  
 *Master's in Computational Linguistics*  
-thesis work in Korean named entity recognition
+thesis work in [Korean named entity recognition](abstract.md)
 
 **University of Rochester** (2006 – 2009)  
 *Bachelor of Arts* magna cum laude *in Japanese Language in Culture*  
