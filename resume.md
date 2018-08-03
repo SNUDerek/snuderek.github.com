@@ -1,14 +1,14 @@
-# Derek S Hommel
+# derek hommel
 
 *machine learning, linguistics, language education*
 
-## Contact & Links
+## contact
 
 currently living in Seoul, South Korea.
 
 please contact me via email at [derekshommel@gmail.com](mailto:derekshommel@gmail.com) or at [LinkedIn](https://www.linkedin.com/in/derek-hommel-4a646869/)
 
-## Skills & Stuff
+## skills
 
 - `python`
 - data science & ML : `pandas`, `sklearn`, `nltk`, `konlpy`
@@ -17,7 +17,7 @@ please contact me via email at [derekshommel@gmail.com](mailto:derekshommel@gmai
 - Linux
 - MS Office (MS Word, PowerPoint, Excel)
 
-## Sample Portfolio
+## projects
 
 **[MLPy](https://github.com/SNUDerek/MLPy)**  
 [ongoing] education-focused implementation of machine learning algorithms in `python+numpy` with detailed comments
@@ -30,13 +30,13 @@ see some cards at [my MtG Cardsmith page](https://mtgcardsmith.com/user/dsh9470/
 a `keras` implementation of word-level bi-LSTM-CRF network for entity extraction
 
 **[Multipurpose LSTM_CRF Network with Attention for NER & Intent Detection](https://github.com/SNUDerek/multiLSTM)**  
-an extension of the above project for a unified NER and intent detection network
+an extension of the above project for a unified NER and intent detection network (*outdated - update tbd*)
 
-## Education
+## education
 
 **Seoul National University** (2015 – 2018)  
 *Master's in Computational Linguistics*  
-thesis work in [Korean named entity recognition](abstract.md)
+thesis: [Data-Driven Input Feature Augmentation for Named Entity Recognition](abstract.md)
 
 **University of Rochester** (2006 – 2009)  
 *Bachelor of Arts* magna cum laude *in Japanese Language in Culture*  
@@ -46,7 +46,7 @@ with minor in Linguistics
 *Software Engineering*
 on the RIT Computing Medal scholarship
 
-## Work Experience
+## work experience
 
 **Machine Learning Researcher** (March 2017 – Present)  
 *[Atlas Guide](http://www.goodatlas.com), Seoul, Korea*  
@@ -72,7 +72,7 @@ developed syllabus and curriculum, and taught weekly conversational English clas
 *Language Village English Conversation School, Fuji City, Japan*  
 developed syllabus and curriculum, and taught conversational English classes to students of a variety of ages (children to adult).
 
-## Awards, Honors, Competitions
+## awards & honors
 
 **Naver AI Hackathon 2018**  
 *Round 3/Finalist with Team Atlas*
@@ -89,7 +89,7 @@ developed syllabus and curriculum, and taught conversational English classes to 
 **Fulbright Scholar** (2009)  
 *English Teaching Assistant grant to South Korea*
 
-## Hobbies & Interests
+## hobbies & interests
 
 - video gaming
 - Magic the Gathering
