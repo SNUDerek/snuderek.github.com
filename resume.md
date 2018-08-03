@@ -56,7 +56,7 @@ assisting in researching and developing AI & NLP technologies to create dialog a
 *Ohyun High School & Jeju Girl’s High School, Jeju City, South Korea*  
 developed syllabus and curriculum, and taught weekly conversational English classes to 1st and 2nd year high school students (grades 10 and 11).
 
-**Fulbright English Teaching Assistant (ETA)** (2009 – 2012)  
+**Fulbright English Teaching Assistant (ETA)** (2010 – 2012)  
 *Daejeon Yongsan High School, Daejeon, South Korea*  
 developed syllabus and curriculum, and taught weekly conversational English classes to 1st and 2nd year high school students (grades 10 and 11).
 
@@ -66,6 +66,7 @@ revised and expanded orientation materials, and conducted intensive seven-week o
 
 **Fulbright English Teaching Assistant (ETA)** (2009 – 2010)  
 *Aphae High School, Jeollanamdo, South Korea*  
+*Daejeon Yongsan High School, Daejeon, South Korea*  
 developed syllabus and curriculum, and taught weekly conversational English classes to 1st, 2nd and 3rd year high school students (grades 10, 11, and 12).
 
 **Intern English Instructor** (2007 – 2008)  
