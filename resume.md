@@ -1,6 +1,6 @@
 # derek hommel
 
-*machine learning, linguistics, language education*
+*machine learning, linguistics, English education*
 
 ## contact
 
