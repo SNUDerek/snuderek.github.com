@@ -30,7 +30,7 @@ see some cards at [my MtG Cardsmith page](https://mtgcardsmith.com/user/dsh9470/
 a `keras` implementation of word-level bi-LSTM-CRF network for entity extraction
 
 **[Multipurpose LSTM_CRF Network with Attention for NER & Intent Detection](https://github.com/SNUDerek/multiLSTM)**  
-an extension of the above project for a unified NER and intent detection network (*outdated - update tbd*)
+an extension of the above project for a unified NER and intent detection network
 
 ## education
 
