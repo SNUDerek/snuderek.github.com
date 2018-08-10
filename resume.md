@@ -19,6 +19,32 @@ please contact me via email at [derekshommel@gmail.com](mailto:derekshommel@gmai
 
 ## projects
 
+**retrieval-based dialog assistant and conversation classifier**
+tools: `pandas`, `sklearn`, `word2vec`, `sent2vec`, `keras`
+- worked with technical advisors, engineering team to guide project development after TL departure
+- mentored company interns and advised them with project sub-tasks
+- data analysis of 1M+ historical chats with unsupervised clustering methods
+- ML models for classifying at sentence and dialog level (dialog level: 83 F1)
+- response recommendation using cosine similarity and statistical speech-act transition modeling
+- helped port models & system from Korean to English for second client in new domain
+
+**named entity recognition/joint SLU system**
+tools: `keras`
+- researched and implemented a flexible neural NER/joint-SLU tool for English and Korean
+- led a team of two data analyst interns and one ML engineering intern to complete project
+- data processing, data bootstrapping, input methods (tokenization, subword labeling), joint models
+- korean grocery shopping domain entity (product, brand, size/type, count) detection (recall: 99.4)
+- english travel domain using ATIS corpus (intent accuracy: 96.3, slot F1: 93.71) 
+
+**limited-domain neural machine translation**
+tools: `keras`, `pytorch`
+- supervised one ML engineering intern (duties: preliminary research, webcrawling, deployment)
+- data bootstrapping (webcrawling) and processing; data input methods including `wordpiece`
+- custom `keras` network for product title and composition translations
+- forked `open-NMT-py` model for product description translations (BLEU: 28.64, cf. Google NMT: 2.05)
+
+## portfolio
+
 **[MLPy](https://github.com/SNUDerek/MLPy)**  
 [ongoing] education-focused implementation of machine learning algorithms in `python+numpy` with detailed comments
 
