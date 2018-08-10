@@ -12,7 +12,7 @@ please contact me via email at [derekshommel@gmail.com](mailto:derekshommel@gmai
 
 Mathematically inclined as a child so of course I decided to abandon a software engineering degree to study English literature. Ended up deciding to study to become barely literate in Japanese and then took some linguistics courses to figure out why that was proving so difficult. Ended up as an intern English teacher in Japan and decided teaching was a perfect career move for an introvert like myself. Taught on a Fulbright ETA fellowship in Korea, taught for five years and got pretty ok at it, tried to go to law school back home but the tuition bill made me choke so I headed to Seoul National for masters in linguistics. prof told me our lab was going to do deep learning, and my job was to use it to do 'something'. three years later I did a thing, and here I am.
 
-When I'm not glued to my computer screen deep in code, I like indulging in needlessly expensive hobbies like buying music instuments and accessories that I can barely play, expanding my Steam collection of unplayed games, continually replacing the worn-out parts on my skateboards, hoarding Magic the Gathering cards, and tinkering with my various PCs and other electronic gadgets. 
+When I'm not glued to my computer screen deep in code, I like indulging in needlessly expensive hobbies like buying music instuments and accessories that I can barely play, expanding my Steam collection of unplayed games, continually replacing the worn-out parts on my skateboards, hoarding Magic the Gathering cards, tinkering with my various PCs and other electronic gadgets, and taking Coursera courses (*zing!* j/k I love you Andrew Ng) 
 
 ## skills
 
