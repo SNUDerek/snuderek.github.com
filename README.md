@@ -4,7 +4,7 @@ nlp machine learning researcher, Seoul, South Korea
 
 ## resume
 
-you can view my full resume [here](resume.md)
+you can view my resume [here](resume.md)
 
 ## ml projects
 
@@ -21,7 +21,7 @@ a `keras` implementation of word-level bi-LSTM-CRF network for entity extraction
 **[Multipurpose LSTM_CRF Network with Attention for NER & Intent Detection](https://github.com/SNUDerek/multiLSTM)**  
 an extension of the above project for a unified NER and intent detection network
 
-## remote computing guide
+## remote computing setup guide
 
 see my reference guide [here](sshguide.md)
 
