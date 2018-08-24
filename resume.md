@@ -1,14 +1,16 @@
 # derek hommel
 
-*machine learning, linguistics, English education*
+*MA in computational linguistics*
 
 ## contact
 
-currently living in Seoul, South Korea.
+currently living in Seoul, South Korea. 
 
-please contact me via email at [derekshommel@gmail.com](mailto:derekshommel@gmail.com) or at [LinkedIn](https://www.linkedin.com/in/derek-hommel-4a646869/)
+please contact me via email at [derekshommel at gmail.com](mailto:derekshommel@gmail.com) or through [LinkedIn](https://www.linkedin.com/in/derek-hommel-4a646869/) 
 
-## skills
+message me from korea at 010 - 9482 - four two oh eight
+
+## technical skills
 
 - programming: `python`
 - data science & ML : `pandas`, `sklearn`, `R`
@@ -17,7 +19,7 @@ please contact me via email at [derekshommel@gmail.com](mailto:derekshommel@gmai
 - Linux
 - MS Office (MS Word, PowerPoint, Excel)
 
-## projects
+## professional projects
 
 **retrieval-based dialog assistant and conversation classifier**
 tools: `pandas`, `sklearn`, `word2vec`, `sent2vec`, `keras`
@@ -44,7 +46,7 @@ tools: `keras`, `pytorch`
 - implemented custom `keras` network for product title and composition translations
 - developed `open-NMT-py` fork for product description translations (BLEU: 28.64, cf. Google NMT: 2.05)
 
-## portfolio
+## personal portfolio
 
 **[MLPy](https://github.com/SNUDerek/MLPy)**  
 [ongoing] education-focused implementation of machine learning algorithms in `python+numpy` with detailed comments
@@ -58,20 +60,6 @@ a `keras` implementation of word-level bi-LSTM-CRF network for entity extraction
 
 **[Multipurpose LSTM_CRF Network with Attention for NER & Intent Detection](https://github.com/SNUDerek/multiLSTM)**  
 an extension of the above project for a unified NER and intent detection network
-
-## education
-
-**Seoul National University** (2015 – 2018)  
-*Master's in Computational Linguistics*  
-thesis: [Data-Driven Input Feature Augmentation for Named Entity Recognition](abstract.md)
-
-**University of Rochester** (2006 – 2009)  
-*Bachelor of Arts* magna cum laude *in Japanese Language in Culture*  
-with minor in Linguistics
-
-**Rochester Institute of Technology** (2004 – 2005)  
-*Software Engineering*
-on the RIT Computing Medal scholarship
 
 ## work experience
 
@@ -100,6 +88,20 @@ developed syllabus and curriculum, and taught weekly conversational English clas
 *Language Village English Conversation School, Fuji City, Japan*  
 developed syllabus and curriculum, and taught conversational English classes to students of a variety of ages (children to adult).
 
+## education
+
+**Seoul National University** (2015 – 2018)  
+*Master's in Computational Linguistics*  
+thesis: [Data-Driven Input Feature Augmentation for Named Entity Recognition](abstract.md)
+
+**University of Rochester** (2006 – 2009)  
+*Bachelor of Arts* magna cum laude *in Japanese Language in Culture*  
+with minor in Linguistics
+
+**Rochester Institute of Technology** (2004 – 2005)  
+*Software Engineering*
+on the RIT Computing Medal scholarship
+
 ## awards & honors
 
 **Naver AI Hackathon 2018**  
@@ -116,9 +118,3 @@ developed syllabus and curriculum, and taught conversational English classes to 
 
 **Fulbright Scholar** (2009)  
 *English Teaching Assistant grant to South Korea*
-
-## about
-
-Mathematically and scientifically inclined as a kid so of course I decided to abandon a software engineering degree after a year of study to major in English literature. Ended up deciding to study to become barely literate in Japanese instead and then took some linguistics courses to figure out why that was proving so difficult. Ended up as an intern English teacher in Japan and decided teaching was a perfect career move for my introverted self. Went to Korea on a Fulbright ETA fellowship in Korea, taught for five years and got pretty ok at it, tried to go to law school back home but the tuition bill made me choke so I headed to Seoul National for a masters in linguistics. prof told me our lab was going to pivot towards deep learning, and my job was to use it to do 'something'. three years later I did a thing, and here I am.
-
-When I'm not glued to my computer screen deep in code, I like indulging in needlessly expensive hobbies like buying musical instuments and accessories that I can barely play, expanding my Steam collection of unplayed games, continually replacing the worn-out parts on my skateboards, hoarding Magic the Gathering cards, tinkering with my various PCs and other electronic gadgets, and taking Coursera courses (*zing!* j/k I love you Andrew Ng) 
