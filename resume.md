@@ -21,7 +21,7 @@ message me from korea at 010 - 9482 - four two oh eight
 
 ## professional projects
 
-**retrieval-based dialog assistant and conversation classifier**
+**retrieval-based dialog assistant and conversation classifier**  
 tools: `pandas`, `sklearn`, `word2vec`, `sent2vec`, `keras`
 - worked with technical advisors, engineering team to guide project development after departure of ML team lead
 - mentored company interns and advised them with project sub-tasks
@@ -30,7 +30,7 @@ tools: `pandas`, `sklearn`, `word2vec`, `sent2vec`, `keras`
 - response recommendation using cosine similarity and statistical speech-act transition modeling
 - helped port models & system from Korean to English for second client in new domain
 
-**named entity recognition/joint SLU system**
+**named entity recognition/joint SLU system**  
 tools: `keras`
 - researched and implemented a flexible neural NER/joint-SLU tool for English and Korean
 - led a team of two data analyst interns and two junior ML software engineers to complete project
@@ -38,7 +38,7 @@ tools: `keras`
 - korean grocery shopping domain entity (product, brand, size/type, count) detection (recall: 99.4)
 - english travel domain using ATIS corpus (intent accuracy: 96.3, slot F1: 93.71) 
 
-**limited-domain neural machine translation**
+**limited-domain neural machine translation**  
 tools: `keras`, `pytorch`
 - supervised one junior ML software engineer (duties: preliminary research, webcrawling, deployment)
 - worked on data bootstrapping (webcrawling) and processing; data input methods including `wordpiece`
