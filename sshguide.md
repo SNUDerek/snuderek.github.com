@@ -53,6 +53,23 @@ this will let you connect using a domain name instead of an IP address for maxim
 - if your ISP uses dynamic IP addresses, set up dynamic dns with `ddclient`
 - NB: if using domains.google.com, you can also update IP through browser address bar with their API
 
+## SSH CONFIG
+
+edit the ssh config file so you can use 'shortcut' names:
+
+`pico ~/.ssh/config`
+
+in this file, add the remote host info so that you can use `ssh <name>` to init ssh contact
+
+```
+Host <name>
+    HostName <url>
+    Port <port>
+    User <username>
+```
+
+see: [https://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/]
+
 ## GET PYCHARM PRO
 
 - use your student email address (snu email tested) at [https://www.jetbrains.com/student/] to get activation key
@@ -116,6 +133,16 @@ specify port with `-P 1234` and remote subdirectory at the end, ex:
 `user@local:~/Downloads$ scp Readme.md derek@dereks.com:~/project1/`
 
 will send the file `Readme.md` from local `Downloads` directory to `derek/home/project1` on remote machine
+
+### using rsync
+
+todo
+
+### using GUI by mounting drives
+
+`sshfs` can mount drives to arbitrary directories, though Mint and Ubuntu flavors also support this in their native file explorers.
+
+see: [https://www.pcsuggest.com/sshfs-mount-remote-folder-linux/]
 
 ## USING JUPYTER NOTEBOOK OVER NGROK
 
