@@ -1,8 +1,8 @@
 # derek hommel
 
-master of computational linguistics, SNU 2018
+NLP and machine learning research and engineering
 
-*interested in NLP and machine learning research and engineering*
+master of computational linguistics, SNU 2018
 
 ## contact
 
@@ -15,7 +15,7 @@ message me from korea at 010 - 9482 - four two oh eight
 ## technical skills
 
 - programming: `python`
-- data science & ML : `pandas`, `sklearn`
+- data science : `pandas`, `sklearn`
 - deep learning : `keras`, `tensorflow`, `pytorch`
 - [github](https://github.com/SNUDerek)
 - Linux
@@ -23,7 +23,7 @@ message me from korea at 010 - 9482 - four two oh eight
 
 ## professional projects
 
-in chronological order of participation, earliest to latest
+listed in chronological order of participation, earliest to latest
 
 **retrieval-based dialog assistant and conversation classifier**  
 
@@ -68,7 +68,7 @@ tools: `keras`, `tensorflow-serving`, `kafka`, `sklearn`, `cherrypy`, `ws4py`
 - created and deployed lightweight REST-based model server for `sklearn`-trained models
 - configured and deployed Dockerized `tensorflow-serving` model server
 - created and deployed data preprocessing service that communicated with above services over kafka, websocket and REST API
-
+- worked with team of researchers and engineers to integrate above components into complete voice-powered navigation and search service 
 ## personal portfolio
 
 **[MLPy](https://github.com/SNUDerek/MLPy)**  
