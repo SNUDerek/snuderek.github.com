@@ -12,14 +12,14 @@ you can view my resume [here](resume.md)
 [ongoing] education-focused implementation of machine learning algorithms in `python+numpy` with detailed comments
 
 **[Magic The Gathering Card Generation with LSTM Language Modeling](https://github.com/SNUDerek/mtgcardgenerator)**  
-[ongoing] a fun side-project for generating MtG cards using neural networks.  
+[ongoing] a fun side-project for generating MtG cards using neural networks using an LSTM-LM with weight tying.  
 see some cards at [my MtG Cardsmith page](https://mtgcardsmith.com/user/dsh9470/cards)
 
-**[Named Entity Recognition with Bidirectional LSTM-CRF in `Keras`](https://github.com/SNUDerek/NER_bLSTM-CRF)**  
-a `keras` implementation of word-level bi-LSTM-CRF network for entity extraction
+**[Sequence-to-Sequence with Luong Dot Attention in `Keras`](https://github.com/SNUDerek/kerasdemo-seq2seq-attention/blob/master/seq2seq-roman.ipynb)**  
+an annotated tutorial `keras` implementation of word-level recurrent sequence-to-sequence translation with attention.
 
 **[Multipurpose LSTM_CRF Network with Attention for NER & Intent Detection](https://github.com/SNUDerek/multiLSTM)**  
-an extension of the above project for a unified NER and intent detection network
+a `keras` CNN-RNN-CRF with attention for joint named entity recognition (NER) and intent detection (Joint SLU task) with 'aligned seq2seq'. see notebook comments for description.
 
 ## remote computing setup guide
 
