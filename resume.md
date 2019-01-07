@@ -1,6 +1,8 @@
 # derek hommel
 
-*MA in computational linguistics*
+master of computational linguistics, SNU 2018
+
+*interested in NLP and machine learning research and engineering*
 
 ## contact
 
@@ -13,15 +15,19 @@ message me from korea at 010 - 9482 - four two oh eight
 ## technical skills
 
 - programming: `python`
-- data science & ML : `pandas`, `sklearn`, `R`
-- deep learning : `keras`, `tensorflow`
+- data science & ML : `pandas`, `sklearn`
+- deep learning : `keras`, `tensorflow`, `pytorch`
 - [github](https://github.com/SNUDerek)
 - Linux
 - MS Office (MS Word, PowerPoint, Excel)
 
 ## professional projects
 
+in chronological order of participation, earliest to latest
+
 **retrieval-based dialog assistant and conversation classifier**  
+
+client: korean e-commerce startup, international bank
 
 tools: `pandas`, `sklearn`, `word2vec`, `sent2vec`, `keras`
 - worked with technical advisors, engineering team to guide project development after departure of ML team lead
@@ -33,6 +39,8 @@ tools: `pandas`, `sklearn`, `word2vec`, `sent2vec`, `keras`
 
 **named entity recognition/joint SLU system**  
 
+client: korean e-commerce company (with Seoul Innovation Challenge Grant)
+
 tools: `keras`
 - researched and implemented a flexible neural NER/joint-SLU tool for English and Korean
 - led a team of two data analyst interns and two junior ML software engineers to complete project
@@ -42,12 +50,24 @@ tools: `keras`
 
 **limited-domain neural machine translation**  
 
+client: joint venture with another startup company
+
 tools: `keras`, `pytorch`
 - supervised one junior ML software engineer (duties: preliminary research, webcrawling, deployment)
 - worked on data bootstrapping (webcrawling) and processing; data input methods including `wordpiece`
 - researched `seq2seq` translation methods, transfer learning for low-resource translations
 - implemented custom `keras` network for product title and composition translations
 - developed `open-NMT-py` fork for product description translations (BLEU: 28.64, cf. Google NMT: 2.05)
+
+**model serving for commercial deployment**
+
+client: korean vendor and e-commerce company
+
+tools: `keras`, `tensorflow-serving`, `kafka`, `sklearn`, `cherrypy`, `ws4py`
+- created CLI-based model trainer and exporter to train and save `keras` models for `tensorflow-serving`
+- created and deployed lightweight REST-based model server for `sklearn`-trained models
+- configured and deployed Dockerized `tensorflow-serving` model server
+- created and deployed data preprocessing service that communicated with above services over kafka, websocket and REST API
 
 ## personal portfolio
 
