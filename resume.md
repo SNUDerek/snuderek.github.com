@@ -17,6 +17,7 @@ message me from korea at 010 - 9482 - four two oh eight
 - programming: `python`
 - data science : `pandas`, `sklearn`
 - deep learning : `keras`, `tensorflow`, `pytorch`
+- engineering : `amazon aws`, `docker`, `kafka`, `tensorflow-serving`
 
 ## professional projects
 
