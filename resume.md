@@ -1,6 +1,6 @@
 # derek hommel
 
-NLP and machine learning research and engineering
+NLP and machine learning research
 
 master of computational linguistics, SNU 2018
 
@@ -17,9 +17,6 @@ message me from korea at 010 - 9482 - four two oh eight
 - programming: `python`
 - data science : `pandas`, `sklearn`
 - deep learning : `keras`, `tensorflow`, `pytorch`
-- [github](https://github.com/SNUDerek)
-- Linux
-- MS Office (MS Word, PowerPoint, Excel)
 
 ## professional projects
 
@@ -30,11 +27,11 @@ listed in chronological order of participation, earliest to latest
 client: korean e-commerce startup, international bank
 
 tools: `pandas`, `sklearn`, `word2vec`, `sent2vec`, `keras`
-- worked with technical advisors, engineering team to guide project development after departure of ML team lead
-- mentored company interns and advised them with project sub-tasks
 - data analysis of 1M+ historical chats with unsupervised clustering methods
 - ML models for classifying at sentence and dialog level (dialog level: 83 F1)
 - response recommendation using cosine similarity and statistical speech-act transition modeling
+- worked with technical advisors, engineering team to guide project development after departure of ML team lead
+- mentored company interns and advised them on project sub-tasks
 - helped port models & system from Korean to English for second client in new domain
 
 **named entity recognition/joint SLU system**  
@@ -61,14 +58,15 @@ tools: `keras`, `pytorch`
 
 **model serving for commercial deployment**
 
-client: korean vendor and e-commerce company
+client: korean e-commerce company
 
 tools: `keras`, `tensorflow-serving`, `kafka`, `sklearn`, `cherrypy`, `ws4py`
 - created CLI-based model trainer and exporter to train and save `keras` models for `tensorflow-serving`
 - created and deployed lightweight REST-based model server for `sklearn`-trained models
 - configured and deployed Dockerized `tensorflow-serving` model server
-- created and deployed data preprocessing service that communicated with above services over kafka, websocket and REST API
+- created and deployed multiprocessed data preprocessing service that communicated with above services over kafka, websocket and REST API
 - worked with team of researchers and engineers to integrate above components into complete voice-powered navigation and search service 
+
 ## personal portfolio
 
 **[MLPy](https://github.com/SNUDerek/MLPy)**  
