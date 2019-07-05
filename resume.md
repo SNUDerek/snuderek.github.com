@@ -1,6 +1,6 @@
-# derek hommel
+# Derek Hommel
 
-NLP and machine learning research
+Machine Learning/Natural Language Processing Researcher
 
 master of computational linguistics, SNU 2018
 
@@ -10,13 +10,12 @@ currently living in Seoul, South Korea.
 
 please contact me via email at [derekshommel at gmail.com](mailto:derekshommel@gmail.com) or through [LinkedIn](https://www.linkedin.com/in/derek-hommel-4a646869/) 
 
-message me from korea at 010 - 9482 - four two oh eight
+message me from Korea at 010 - 9482 - four two zero eight
 
 ## technical skills
 
-- programming: `python`
-- data science : `pandas`, `sklearn`
-- deep learning : `keras`, `tensorflow`, `pytorch`
+- languages : `python`
+- deep learning libraries : `tensorflow`, `keras`, `pytorch`
 - engineering : `amazon aws`, `docker`, `kafka`, `tensorflow-serving`
 
 ## professional projects
@@ -25,7 +24,7 @@ listed in chronological order of participation, earliest to latest
 
 **retrieval-based dialog assistant and conversation classifier**  
 
-client: korean e-commerce startup, international bank
+clients: korean e-commerce startup, international bank
 
 tools: `pandas`, `sklearn`, `word2vec`, `sent2vec`, `keras`
 - data analysis of 1M+ historical chats with unsupervised clustering methods
@@ -48,7 +47,7 @@ tools: `keras`
 
 **limited-domain neural machine translation**  
 
-client: joint venture with another startup company
+client: joint venture with VC firm
 
 tools: `keras`, `pytorch`
 - supervised one junior ML software engineer (duties: preliminary research, webcrawling, deployment)
@@ -57,18 +56,18 @@ tools: `keras`, `pytorch`
 - implemented custom `keras` network for product title and composition translations
 - developed `open-NMT-py` fork for product description translations (BLEU: 28.64, cf. Google NMT: 2.05)
 
-**model serving for commercial deployment**
+**NLU model serving for large-scale deployment**
 
 client: korean e-commerce company
 
 tools: `keras`, `tensorflow-serving`, `kafka`, `sklearn`, `cherrypy`, `ws4py`
-- created CLI-based model trainer and exporter to train and save `keras` models for `tensorflow-serving`
+- created CLI-based model trainer and exporter to train and save `tensorflow` models for `tensorflow-serving`
 - created and deployed lightweight REST-based model server for `sklearn`-trained models
 - configured and deployed Dockerized `tensorflow-serving` model server
 - created and deployed multiprocessed data preprocessing service that communicated with above services over kafka, websocket and REST API
 - worked with team of researchers and engineers to integrate above components into complete voice-powered navigation and search service 
 
-## personal portfolio
+## personal projects
 
 **[MLPy](https://github.com/SNUDerek/MLPy)**  
 [ongoing] education-focused implementation of machine learning algorithms in `python+numpy` with detailed comments
@@ -85,30 +84,23 @@ an extension of the above project for a unified NER and intent detection network
 
 ## work experience
 
-**Natural Language Processing / Machine Learning Researcher** (March 2017 – Present)  
-*[Atlas Guide](http://www.goodatlas.com), Seoul, Korea*  
-assisting in researching and developing AI & NLP technologies to create dialog assistant software.
+**Principal NLP Researcher** (March 2017 – Present)  
+*[Atlas Labs](http://atlaslabs.ai), Seoul, Korea*  
+assisting in researching and developing AI & NLP technologies for dialog assistant software.
 
 **Guest English Teacher, English Program in Korea (EPIK)** (2012 – 2014)  
-*Ohyun High School & Jeju Girl’s High School, Jeju City, South Korea*  
-developed syllabus and curriculum, and taught weekly conversational English classes to 1st and 2nd year high school students (grades 10 and 11).
-
-**Fulbright English Teaching Assistant (ETA)** (2010 – 2012)  
-*Daejeon Yongsan High School, Daejeon, South Korea*  
-developed syllabus and curriculum, and taught weekly conversational English classes to 1st and 2nd year high school students (grades 10 and 11).
+*Ohyun High School, Jeju Girl’s High School & Jeju Girl’s Commercial High School, Jeju City, South Korea*  
+developed syllabus and curriculum, and taught weekly conversational English classes to high school students.  
+volunteered to lead student-driven extracurricular activities including persuasive writing & magazine publishing club, debate club, and programming/game development club. 
 
 **Fulbright ETA Orientation Coordinator** (2010)  
 *Jungwon University, Goesan-gun, South Korea*  
-revised and expanded orientation materials, and conducted intensive seven-week orientation and training program covering Korean educational system, teaching methodology, and cultural adjustment. assisted in site logistics.
+conducted intensive seven-week orientation and training program covering Korean educational system, teaching methodology, and cultural adjustment. primary liason for maintaining site logistics with university.
 
-**Fulbright English Teaching Assistant (ETA)** (2009 – 2010)  
+**Fulbright English Teaching Assistant (ETA)** (2009 – 2012)  
 *Aphae High School, Jeollanamdo, South Korea*  
 *Daejeon Yongsan High School, Daejeon, South Korea*  
-developed syllabus and curriculum, and taught weekly conversational English classes to 1st, 2nd and 3rd year high school students (grades 10, 11, and 12).
-
-**Intern English Instructor** (2007 – 2008)  
-*Language Village English Conversation School, Fuji City, Japan*  
-developed syllabus and curriculum, and taught conversational English classes to students of a variety of ages (children to adult).
+developed syllabus and curriculum, and taught weekly conversational English classes to high school students.
 
 ## education
 
