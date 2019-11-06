@@ -61,6 +61,12 @@ client: 에스24 (Yes24)
 - worked with ASR team to integrate NLU with STT for voice based search
 - currently available on Yes24 mobile app (as of Nov 2019)
 
+**Korean Neural Text-To-Speech**
+
+client: internal service
+
+- currently experimenting with text-to-speech with voice cloning
+
 ## personal projects
 
 **[MLPy](https://github.com/SNUDerek/MLPy)**  
