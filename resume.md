@@ -26,22 +26,19 @@ listed in chronological order of participation, earliest to latest
 
 clients: korean e-commerce startup, international bank
 
-tools: `pandas`, `sklearn`, `word2vec`, `sent2vec`, `keras`
-- data analysis of 1M+ historical chats with unsupervised clustering methods
-- ML models for classifying at sentence and dialog level (dialog level: 83 F1)
-- response recommendation using cosine similarity and statistical speech-act transition modeling
-- worked with technical advisors, engineering team to guide project development after departure of ML team lead
+- data analysis of 1M+ historical chats
+- ML models for classifying at sentence and dialog level (dialog level: 83 F1 score)
+- conversation response recommendation
+- worked with technical advisors, engineering team to guide project development
 - mentored company interns and advised them on project sub-tasks
-- helped port models & system from Korean to English for second client in new domain
+- converted models & system from Korean to English for second client in new domain
 
 **named entity recognition/joint SLU system**  
 
 client: korean e-commerce company (with Seoul Innovation Challenge Grant)
 
-tools: `keras`
 - researched and implemented a flexible neural NER/joint-SLU tool for English and Korean
 - led a team of two data analyst interns and two junior ML software engineers to complete project
-- worked on data processing, data bootstrapping; researched input methods (tokenization, subword labeling), joint models
 - korean grocery shopping domain entity (product, brand, size/type, count) detection (recall: 99.4)
 - english travel domain using ATIS corpus (intent accuracy: 96.3, slot F1: 93.71) 
 
@@ -49,23 +46,20 @@ tools: `keras`
 
 client: joint venture with VC firm
 
-tools: `keras`, `pytorch`
-- supervised one junior ML software engineer (duties: preliminary research, webcrawling, deployment)
-- worked on data bootstrapping (webcrawling) and processing; data input methods including `wordpiece`
+- supervised one junior ML software engineer
+- worked on data bootstrapping (webcrawling) and processing; data input methods
 - researched `seq2seq` translation methods, transfer learning for low-resource translations
-- implemented custom `keras` network for product title and composition translations
-- developed `open-NMT-py` fork for product description translations (BLEU: 28.64, cf. Google NMT: 2.05)
+- trained custom translation model (BLEU: 28.64, compared to Google Translate BLEU: 2.05)
 
 **NLU model serving for large-scale deployment**
 
-client: korean e-commerce company
+client: 에스24 (Yes24)
 
-tools: `keras`, `tensorflow-serving`, `kafka`, `sklearn`, `cherrypy`, `ws4py`
-- created CLI-based model trainer and exporter to train and save `tensorflow` models for `tensorflow-serving`
-- created and deployed lightweight REST-based model server for `sklearn`-trained models
-- configured and deployed Dockerized `tensorflow-serving` model server
-- created and deployed multiprocessed data preprocessing service that communicated with above services over kafka, websocket and REST API
-- worked with team of researchers and engineers to integrate above components into complete voice-powered navigation and search service 
+- created CLI-based model trainer and exporter to train and save `tensorflow` models for deployment
+- created and deployed lightweight REST-based model server
+- configured and deployed model server with Docker
+- worked with ASR team to integrate NLU with STT for voice based search
+- currently available on Yes24 mobile app (as of Nov 2019)
 
 ## personal projects
 
