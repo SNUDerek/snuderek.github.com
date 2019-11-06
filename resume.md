@@ -53,7 +53,7 @@ client: joint venture with VC firm
 
 **NLU model serving for large-scale deployment**
 
-client: 에스24 (Yes24)
+client: 예스24 (Yes24)
 
 - created CLI-based model trainer and exporter to train and save `tensorflow` models for deployment
 - created and deployed lightweight REST-based model server
