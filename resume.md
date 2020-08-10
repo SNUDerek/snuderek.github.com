@@ -61,11 +61,13 @@ client: 예스24 (Yes24)
 - worked with ASR team to integrate NLU with STT for voice based search
 - currently available on Yes24 mobile app (as of Nov 2019)
 
-**Korean Neural Text-To-Speech**
+**Korean neural text-to-speech**
 
 client: internal service
 
-- currently experimenting with text-to-speech with voice cloning
+- tested various TTS and vocoder models for best performance
+- created multi-speaker TTS model with Tacotron 2 and WaveGlow for Korean language
+- currently researching alternate vocoders and frameworks to improve inference speed
 
 ## personal projects
 
