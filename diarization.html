@@ -14493,14 +14493,13 @@ a.anchor-link {
                       <span class="n">hdbscan_min_cluster_size</span><span class="o">=</span><span class="mi">32</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="s2">&quot;cpu&quot;</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">):</span>
     
     <span class="k">if</span> <span class="n">cluster_mode</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">(</span><span class="s2">&quot;hdbscan&quot;</span><span class="p">,</span> <span class="s2">&quot;bayesgmm&quot;</span><span class="p">,</span> <span class="s2">&quot;kmeans&quot;</span><span class="p">,</span> <span class="s2">&quot;spectral&quot;</span><span class="p">):</span>
-        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;cluster_mode must be in &#39;umap&#39;, &#39;spectral&#39;!&quot;</span><span class="p">)</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;cluster_mode must be in &quot;hdbscan&quot;, &quot;bayesgmm&quot;, &quot;kmeans&quot;, &quot;spectral&quot;!&#39;</span><span class="p">)</span>
     
     <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;preprocessing audio of shape </span><span class="si">{}</span><span class="s2"> with device </span><span class="si">{}</span><span class="s2">...&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">audio</span><span class="o">.</span><span class="n">shape</span><span class="p">,</span> <span class="n">device</span><span class="p">))</span>
     <span class="k">if</span> <span class="n">audio</span><span class="o">.</span><span class="n">dtype</span> <span class="o">==</span> <span class="n">np</span><span class="o">.</span><span class="n">dtype</span><span class="p">(</span><span class="s1">&#39;int16&#39;</span><span class="p">):</span>
         <span class="n">audio</span> <span class="o">=</span> <span class="n">audio</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">,</span> <span class="n">order</span><span class="o">=</span><span class="s1">&#39;C&#39;</span><span class="p">)</span> <span class="o">/</span> <span class="mf">32768.0</span>
     <span class="n">audio</span><span class="p">,</span> <span class="n">mask</span> <span class="o">=</span> <span class="n">preprocess_wav</span><span class="p">(</span><span class="n">audio</span><span class="p">)</span>
     
-        
     <span class="c1"># get vectors</span>
     <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;embedding preprocessed audio in shape </span><span class="si">{}</span><span class="s2">...&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">audio</span><span class="o">.</span><span class="n">shape</span><span class="p">))</span>
     <span class="n">encoder</span> <span class="o">=</span> <span class="n">VoiceEncoder</span><span class="p">(</span><span class="n">device</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
@@ -15251,7 +15250,11 @@ Wall time: 46.7 ms
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="diarize-by-segment">diarize by segment<a class="anchor-link" href="#diarize-by-segment">&#182;</a></h2>
+<h2 id="label-speaker-by-segment">label speaker by segment<a class="anchor-link" href="#label-speaker-by-segment">&#182;</a></h2><p>for each segment, get labels of all windows that fall mostly within that segment boundary.</p>
+<p>then assign a label according to the most frequent label from that span.</p>
+<p>because the google stt does not segment different speakers' speech well, some lines contain more than one speaker.</p>
+<p>this can be seen in the "low confidence" segments (where confidence is most frequent label's percentage of all labels in segment span)</p>
+
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
