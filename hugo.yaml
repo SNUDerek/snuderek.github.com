@@ -1,0 +1,91 @@
+baseURL: "https://snuderek.github.io/"
+locale: "en-us"
+title: "Derek Hommel"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+pagination:
+  pagerSize: 10
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  title: "Derek's Thoughts"
+  description: "personal blog of Derek Hommel"
+  keywords:
+    - blog
+    - software
+    - machine learning
+  author: "Derek"
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  showtoc: true
+  tocopen: false
+
+  homeInfoParams:
+    Title: "What's Going On"
+    Content: "updates on current research, ideas, projects and hobbies"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/SNUDerek"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/derek-hommel-4a646869/"
+
+  editPost:
+    URL: "https://github.com/SNUDerek/snuderek.github.com/tree/master/content"
+    Text: "Suggest changes"
+    appendFilePath: true
+
+menu:
+  main:
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+taxonomies:
+  category: categories
+  tag: tags
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false

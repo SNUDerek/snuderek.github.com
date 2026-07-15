@@ -1,0 +1,11 @@
+:root {
+  --radius: 6px;
+}
+
+.post-content {
+  line-height: 1.75;
+}
+
+.profile_inner img {
+  border-radius: 50%;
+}

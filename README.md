@@ -1,37 +1,149 @@
-# Derek's Profile
+# snuderek.github.com
 
-nlp machine learning researcher, Seoul, South Korea
+Personal site built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
-## resume
+## Local development
 
-you can view my resume [here](resume.md)
+Install Hugo Extended, then run the local preview server:
 
-## ml projects
+```bash
+hugo server -D
+```
 
-**[MLPy](https://github.com/SNUDerek/MLPy)**  
-[ongoing] education-focused implementation of machine learning algorithms in `python+numpy` with detailed comments
+Open <http://localhost:1313/>. Hugo watches the repo and rebuilds when content or config files change.
 
-**[Magic The Gathering Card Generation with LSTM Language Modeling](https://github.com/SNUDerek/mtgcardgenerator)**  
-[ongoing] a fun side-project for generating MtG cards using neural networks using an LSTM-LM with weight tying.  
-see some cards at [my MtG Cardsmith page](https://mtgcardsmith.com/user/dsh9470/cards)
+To run a production-style build locally:
 
-**[Sequence-to-Sequence with Luong Dot Attention in `Keras`](https://github.com/SNUDerek/kerasdemo-seq2seq-attention/blob/master/seq2seq-roman.ipynb)**  
-an annotated tutorial `keras` implementation of word-level recurrent sequence-to-sequence translation with attention.
+```bash
+hugo --gc --minify
+```
 
-**[Multipurpose LSTM_CRF Network with Attention for NER & Intent Detection](https://github.com/SNUDerek/multiLSTM)**  
-a `keras` CNN-RNN-CRF with attention for joint named entity recognition (NER) and intent detection (Joint SLU task) with 'aligned seq2seq'. see notebook comments for description.
+Generated output is written to `public/` and should not be committed.
 
-## remote computing setup guide
+## Updating the Main Page
 
-see my reference guide [here](sshguide.md)
+The home page is controlled mainly by `hugo.yaml`.
 
-- setting up remote access to a private server
-- using `ssh` `sftp` and `scp`
-- assigning a server a URL with Google Domains
-- using `ngrok` to access `jupyter lab`
-- setting up `PyCharm Pro` for remote execution
-- etc
+Edit this section to change the main intro text:
 
-## notes to myself
+```yaml
+params:
+  homeInfoParams:
+    Title: "Notes and projects"
+    Content: "A personal site for technical writing, experiments, and links worth keeping."
+```
 
-notes about `conda envs`, `jupyter lab` setup, etc [here](miscnotes.md)
+Edit `params.socialIcons` in the same file to add or change links shown under the intro:
+
+```yaml
+socialIcons:
+  - name: github
+    url: "https://github.com/SNUDerek"
+  - name: linkedin
+    url: "https://www.linkedin.com/in/derek-hommel-4a646869/"
+```
+
+The home page content file is `content/_index.md`. Keep it for page metadata such as title and description.
+
+## Creating a New Post
+
+Create posts under `content/posts/`. Use lowercase, hyphenated filenames:
+
+```bash
+hugo new posts/my-new-post.md
+```
+
+If you are creating the file manually, use this front matter:
+
+```markdown
+---
+title: "My New Post"
+date: 2026-07-15T00:00:00+09:00
+draft: true
+tags:
+  - example
+categories:
+  - notes
+---
+
+Write the post here.
+```
+
+Set `draft: false` when the post is ready to publish. Draft posts show locally with `hugo server -D`, but they are excluded from the GitHub Pages production build.
+
+## Categories and Series Links
+
+Use `categories` for broad groups or post series, and `tags` for more specific topics.
+
+Example front matter:
+
+```yaml
+categories:
+  - diarization
+tags:
+  - speech
+  - machine learning
+```
+
+Hugo creates category pages automatically. A category named `diarization` is available at:
+
+```text
+/categories/diarization/
+```
+
+You can link to that category from the bottom of a post:
+
+```markdown
+See other posts in this series: [diarization](/categories/diarization/).
+```
+
+Multi-word category names are usually slugified. For example, `speaker diarization` becomes `/categories/speaker-diarization/`.
+
+## Adding Images and Other Media
+
+For post-specific media, use a Hugo page bundle:
+
+```text
+content/posts/my-new-post/
+  index.md
+  diagram.png
+  screenshot.jpg
+```
+
+Reference bundled media from `index.md` with a relative path:
+
+```markdown
+![Architecture diagram](diagram.png)
+```
+
+For media shared across multiple pages, put files under `static/`:
+
+```text
+static/images/profile.jpg
+static/files/resume.pdf
+```
+
+Reference shared static files from the site root:
+
+```markdown
+![Profile photo](/images/profile.jpg)
+[Resume](/files/resume.pdf)
+```
+
+Prefer repo-local media for posts so the site remains portable and does not depend on external image hosts.
+
+## Publishing
+
+Push changes to `master`. The GitHub Pages workflow in `.github/workflows/hugo.yaml` builds and deploys the site automatically.
+
+PaperMod is included as a git submodule under `themes/PaperMod`, so clone this repo with submodules when setting it up on a new machine:
+
+```bash
+git clone --recurse-submodules git@github.com:SNUDerek/snuderek.github.com.git
+```
+
+If the repo was already cloned without submodules:
+
+```bash
+git submodule update --init --recursive
+```
