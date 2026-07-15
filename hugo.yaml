@@ -43,7 +43,7 @@ params:
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   showtoc: true
-  tocopen: false
+  tocopen: true
 
   homeInfoParams:
     Title: "What's Going On"
